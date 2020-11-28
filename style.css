@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#first{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+} 
+
+ #nav{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding: 22px 65px;
+    color:black;
+    justify-content: space-between;   
+    
+}
+#nav #navpart1{
+    display: flex;
+    align-items: center;
+}
+#nav #navpart1 a{
+    text-decoration: none;
+    color:black;
+    margin-left: 45px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-family: "product sans";
+    font-weight: 550;
+    
+    
+}
+#nav #navpart1 img{
+    width:80px;
+    margin-bottom: 5px;
+}
+#nav #navpart2{
+    display: flex;
+    align-items: center;
+}
+
+#nav #navpart2 a{
+    text-decoration: none;
+    color:black;
+    margin-left: 45px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    font-family: "product sans";
+    font-weight: 550;
+  
+    
+}
+#nav #navpart2 i{
+    margin-left: 5px ;
+    font-size: 11px;
+}
+
+#nav #navpart2 #icons i{
+    
+    margin-left: 45px ;
+    font-size: 12px;
+    
+}
+
+ #first>img{
+    height: 90%;  
+    right: 5%;
+    top: 15%;
+    position: absolute;
+    
+}
+#sidepannel{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-left: 65px;
+    font-family: "montserrat";
+    padding: 30px 0;
+}
+#sidepannel>h4{
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: -5px;
+
+}
+#sidepannel h1{
+    font-size: 47px;
+    letter-spacing: 7px;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+#sidepannel h5{
+    margin-top: -9px;
+    font-size: 9px;
+    letter-spacing: 2px;
+    opacity: .9;
+}
+#sidepannel #amt{
+    margin-top: 17px;
+    width: 55%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#sidepannel #amt h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+#sidepannel #amt h6{
+    font-size: 8px;
+    letter-spacing: 1px;
+    opacity: .7;
+}
+#sidepannel #delop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin-top: 15px;
+}
+#sidepannel #delop h6{
+    font-size: 8px;
+    letter-spacing: 1px;
+    opacity: .7;
+}
+#sidepannel #delop i{
+    font-size: 14.5px;
+}
+#sidepannel #emi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 46.7%;
+    margin-top: 3px;
+}
+#sidepannel #emi i{
+    font-size: 14.5px;
+}
+#sidepannel #emi h6{
+    font-size: 8px;
+    letter-spacing: 1px;
+    opacity: .7;
+}
+#sidepannel #size{
+    margin-top: 25px;
+}
+#sidepannel #size>h4{
+    font-size: 11px;
+    font-weight: 700;
+    
+    
+}
+#sidepannel #size #sizechart{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#sidepannel #size #sizechart h4{
+    font-size: 12px;
+    font-weight: 400;
+
+}
+#sidepannel #buttons1{
+margin-top: 30px;
+width: 80%;
+}
+#sidepannel #buttons1 #button1{
+    padding: 8px 8px;
+    width: 120px;
+    border:none;
+    background-color: #171717;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+#sidepannel #buttons1 #button2{
+    padding: 6px 6px;
+    width: 120px;
+    border:2px solid;
+    background-color:white;
+    color: #171717;
+    border-color: #171717;
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+#sidepannel #about{
+    margin-top: 25px;
+}
+#sidepannel #about h4{
+    font-size: 11px;
+    font-weight: 600;
+}
+#sidepannel #about #details{
+    margin-top: 10px;
+    width: 85%;
+}
+#sidepannel #about #details p{
+    font-size: 9px;
+    text-align: left;
+    letter-spacing: .7px;
+    line-height: 12px;
+    opacity: .7;
+}
+#sidepannel #buttons2{
+    margin-top: 30px;
+    width: 80%;
+    }
+ #sidepannel #buttons2 #button1{
+        padding: 6px 6px;
+        width: 60px;
+        border:2px solid;
+        background-color:white;
+        color: #171717;
+        border-color: #171717;
+        font-size: 9px;
+        font-weight: 700;
+        cursor: pointer;
+        position: relative;
+        
+}
+#sidepannel #buttons2 #button1 i{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -10px;
+}
+ #sidepannel #buttons2 #button2{
+        padding: 8px 8px;
+        width: 60px;
+        margin-left: 20px;
+        border:none;
+        background-color: #171717;
+        color: white;
+        font-size: 9px;
+        cursor: pointer;
+        position: relative;
+        
+ }
+ #sidepannel #buttons2 #button2 i{
+     position: absolute;
+     margin-top: 1px;
+ }
+#first #heading{
+    width: 60%;
+    height: 5.5%;
+    bottom: 7%;
+    display: flex;
+    position: absolute;
+}
+#first #heading #head1{
+    background-color: #171717;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 10px 0 0 0;
+}
+#first #heading #head1 h4{
+    font-family: "product sans";
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: 100;
+
+}
+
+#first #heading #headbut{
+    background-color: #302f2f;
+    width: 20%;
+    height: 100%;
+    border-radius:0 10px 0 0;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+#first #heading #headbut i{
+    margin-left: 32%;
+}
